@@ -1,5 +1,6 @@
 [client]
 hawkbit_vendor_name = FullMetalUpdate
+hawkbit_url_host = __UNDEFINED__
 hawkbit_url_port = 8080
 hawkbit_ssl = false
 hawkbit_tenant_id = DEFAULT
@@ -11,10 +12,12 @@ log_level = debug
 ostree_name_remote = fullmetalupdate
 ostree_gpg-verify = false
 ostree_ssl = false
+ostree_url_host = __UNDEFINED__
 ostree_url_port = 8000
-ostreepush_ssh_port = 22
+ostree_url_path = __UNDEFINED__
+ostreepush_method = ostreepush
 ostreepush_ssh_user = root
+ostreepush_ssh_host = __UNDEFINED__
+ostreepush_ssh_port = 22
+ostreepush_ssh_path = __UNDEFINED__
 ostreepush_ssh_pwd = root
-
-[server]
-server_host_name = __UNDEFINED__
